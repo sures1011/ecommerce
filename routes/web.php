@@ -18,9 +18,16 @@ use App\Http\Controllers\ContactFormController;
 
 Route::get('/',[HomeController::class,'index']);
 
-Route::middleware(['auth:sanctum','verified'])->get('/dashboard', function () {
-        return view('admin.home');
-    })->name('dashboard');
+// Route::middleware(['auth:sanctum','verified'])->get('/dashboard', function () {
+//         return view('admin.home');
+//     })->name('dashboard');
+
+    Route::group(['middleware' => ['auth','verified']], function(){
+        Route::get('/dashboard', function () {
+            return view('admin.home');
+        })->name('dashboard');
+
+    
 
 
 route::get('/redirect',[HomeController::class,'redirect']);
@@ -58,6 +65,8 @@ Route::post('/stripe/{totalprice}',[HomeController::class, 'stripePost'])->name(
 Route::get('/show_order',[HomeController::class,'show_order']);
 
 Route::get('/cancel_order/{id}',[HomeController::class,'cancel_order']);
+
+});
 
 Route::get('/products',[HomeController::class,'products']);
 

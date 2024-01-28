@@ -36,7 +36,7 @@
               </p>
             </a>
           </li>
-
+          @if (auth()->user()->is_admin)
           <li class="nav-item">
             <a href="{{url('view_catagory')}}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -79,6 +79,7 @@
               </p>
             </a>
           </li>
+          @endif
         
 
 
