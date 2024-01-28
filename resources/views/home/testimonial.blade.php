@@ -12,19 +12,19 @@
                         <div class="img_container">
                            <div class="img-box">
                               <div class="img_box-inner">
-                                 <img src="images/client.jpg" alt="">
+                                 <img src="images/profile.png" alt="">
                               </div>
                            </div>
                         </div>
-                        <div class="detail-box">
+                        <div class="detail-box">   
                            <h5>
-                              Anna Trevor
+                              David Hood
                            </h5>
                            <h6>
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                              Different varieties of products to choose from. 
                            </p>
                         </div>
                      </div>
@@ -46,7 +46,7 @@
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                              Cannot get better deals then this one. Loved the quality of the products.
                            </p>
                         </div>
                      </div>
@@ -56,13 +56,13 @@
                         <div class="img_container">
                            <div class="img-box">
                               <div class="img_box-inner">
-                                 <img src="images/client.jpg" alt="">
+                                 <img src="images/pp.avif" alt="">
                               </div>
                            </div>
                         </div>
                         <div class="detail-box">
                            <h5>
-                              Anna Trevor
+                              Test
                            </h5>
                            <h6>
                               Customer
