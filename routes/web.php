@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactFormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,5 +60,8 @@ Route::get('/show_order',[HomeController::class,'show_order']);
 Route::get('/cancel_order/{id}',[HomeController::class,'cancel_order']);
 
 Route::get('/products',[HomeController::class,'products']);
+
+Route::get('/contact',[ContactFormController::class, 'show'])->name('show');
+Route::post('/contact',[ContactFormController::class, 'send'])->name('send');
 
 
